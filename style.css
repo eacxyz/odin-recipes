@@ -1,15 +1,21 @@
 * {
 	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
 }
 
 img {
 	height: auto;
-	width: 400px;
+	width: 500px;
+	padding: 10px 30px;
 }
 
 h1 {
 	color: darkslategray;
 	background-color: aliceblue;
+	width: 500px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 30px;
 }
 
 h2 {
@@ -19,6 +25,7 @@ h2 {
 
 li {
 	font-size: 20px;
+	padding: 5px;
 }
 
 a {
@@ -27,4 +34,8 @@ a {
 
 p {
 	font-size: 18px;
+}
+
+h1, img, ul {
+	margin-left: 20px;
 }
